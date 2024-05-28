@@ -30,7 +30,17 @@ function mergeCraftDates(emilyRecords, oliverRecords) {
 }
 
 // Example usage:
-let emilyRecords = [1, 3, 5, 7];
-let oliverRecords = [2, 4, 6, 8];
-let merged = mergeCraftDates(emilyRecords, oliverRecords);
-console.log(merged)
+let emilyDates  = [1, 3, 5, 7];
+let oliverDates  = [2, 4, 6, 8];
+let actual = mergeCraftDates(emilyDates, oliverDates);
+console.log(actual)
+
+
+
+
+
+
+
+
+
+
